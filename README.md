@@ -32,6 +32,7 @@ It is intentionally simple for now, but designed to become a polished, community
 | emet | Grounded web research MCP plugin for Codex with live sources, cited answers, and current-doc lookup; install via `codex plugin marketplace add https://github.com/endgegnerbert-tech/emet`. | <https://github.com/endgegnerbert-tech/emet> |
 | agenttrace | Local-first trace analysis and CI regression gates for Codex and AI coding agent sessions. | <https://github.com/luoyuctl/agenttrace> |
 | codex-patch-overlay | Patched Codex CLI builds carrying community-requested features upstream hasn't merged yet (live TUI reasoning streaming, completion sound, WebP image input, timed CLI queueing). Install by downloading a release binary (macOS arm64 / Linux x86_64-musl, sha256-checksummed) or via the Nix overlay `github:salty-flower/codex-patch-overlay/latest-release`. | <https://github.com/salty-flower/codex-patch-overlay> |
+| BestPrice | Greek price comparison for Codex: product search, live shop offers with delivered totals, and price history through BestPrice.gr's keyless, read-only MCP server (`https://mcp.bestprice.gr/mcp`) and bundled shopping Skill. Use the repository's `.codex-plugin/` manifest or add the remote MCP URL directly. | <https://github.com/TheBestCo/bestprice-mcp> |
 
 > Note: Add focused plugins, tools, and integrations that improve Codex-oriented workflows.
 
